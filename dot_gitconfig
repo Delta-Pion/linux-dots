@@ -1,0 +1,19 @@
+[core]
+	editor = \"C:\\Users\\Aditya\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+
+[color "diff"]
+  new = "#23ee00"
+  meta = white
+
+[color "status"]
+  added = yellow
+  changed = red
+  ahead = "#fcee0c"
+
+[color "decorate"]
+	remoteBranch = "#fcee0c"
+
+[color "branch"]
+  reomte = "#fcee0c"
+[init]
+	defaultBranch = main
