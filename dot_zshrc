@@ -85,7 +85,7 @@ ZSH_THEME="antares"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux)
+plugins=(git archlinux zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,3 +121,13 @@ source $ZSH/oh-my-zsh.sh
 
 ZSH_ANTARES_BG_PWD_OK="#ff0000"
 eval "$(zoxide init zsh)"
+
+# yazi
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
