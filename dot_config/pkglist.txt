@@ -1,3 +1,4 @@
+7zip 24.09-3
 ark 25.04.1-1
 base 3-2
 base-devel 1-2
@@ -21,8 +22,10 @@ htop 3.4.1-1
 hyprland 0.49.0-1
 hyprpaper 0.7.5-1
 hyprpolkitagent 0.1.2-7
+imagemagick 7.1.1.47-2
 intel-ucode 20250512-1
 iwd 3.8-1
+jq 1.7.1-2
 kate 25.04.1-1
 kio-admin 25.04.1-1
 kitty 0.42.0-1
@@ -60,6 +63,7 @@ xdg-utils 1.2.1-1
 xf86-video-amdgpu 23.0.0-2
 xf86-video-ati 1:22.0.0-2
 xorg-xinit 1.4.4-1
+yazi 25.4.8-1
 zoxide 0.9.7-1
 zram-generator 1.2.1-1
 zsh 5.9-5
