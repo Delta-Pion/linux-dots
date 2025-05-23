@@ -10,6 +10,7 @@ dunst 1.12.2-1
 efibootmgr 18-3
 fastfetch 2.43.0-1
 fd 10.2.0-1
+filelight 25.04.1-1
 firefox 138.0.4-1
 fzf 0.62.0-1
 gdu 5.30.1-1
